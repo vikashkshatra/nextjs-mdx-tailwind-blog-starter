@@ -20,8 +20,9 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import SwiperCore, { Autoplay } from "swiper";
 
-export default () => {
-  SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay]);
+
+export default function(){
   return (
     <div className="container px-10 my-10">
       <Swiper

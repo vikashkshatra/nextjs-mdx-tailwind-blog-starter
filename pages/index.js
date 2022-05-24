@@ -7,6 +7,7 @@ import HomePage from "./HomePage";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import {background} from "../tsfiles/background";
+import Head from "next/head";
 
 export default function Index({ posts }) {
   const particlesInit = async (main) => {
@@ -26,6 +27,10 @@ export default function Index({ posts }) {
           loaded={particlesLoaded}
 	    	  options={background}
 	  />
+    <Head>
+        <title>page</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <HomePage data= {posts}/>
     </>
   );
