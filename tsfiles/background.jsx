@@ -1,3 +1,7 @@
+
+
+const MyName = 'vikash'.split('')
+
 export const background = {
   background: {
     color: {
@@ -18,7 +22,7 @@ export const background = {
         enable: true,
         mode: "slow",
         parallax: {
-          force: 10,
+          force: 0.1,
         },
       },
       
@@ -32,9 +36,10 @@ export const background = {
     links: {
       color: {
         value: "#",
+
       },
       
-      distance: 100,
+      distance: 50,
       enable: true,
       opacity: 0.4,
     },
@@ -57,25 +62,25 @@ export const background = {
       density: {
         enable: true,
       },
-      value: 5,
+      value: 40,
     },
     opacity: {
       value: {
         min: 0.1,
-        max: 1,
+        max: .8,
       },
       animation: {
         enable: true,
-        speed: .8,
+        speed: .1,
         minimumValue: .1,
       },
     },
     shape: {
       options: {
         character: {
-          value: ["K","s","h","a","t","r","a"],
+          value: MyName,
           font: "Verdana",
-          style: "",
+          style: " ",
           weight: "100",
           fill: true,
         },
@@ -84,10 +89,10 @@ export const background = {
       type: "char",
     },
     size: {
-      value: 15,
+      value: 8,
       animation: {
         speed: 1,
-        minimumValue: 1,
+        minimumValue: 10,
       },
     },
     stroke: {
@@ -99,7 +104,7 @@ export const background = {
             count: 0,
             enable: false,
             offset: 0,
-            speed: .5,
+            speed: .2,
             sync: true,
           },
           s: {
