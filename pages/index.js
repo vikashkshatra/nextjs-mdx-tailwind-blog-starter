@@ -17,7 +17,7 @@ export default function Index({ posts }) {
   const particlesLoaded = (container) => {
     console.log(container);
   };
-  // console.log(posts);
+  console.log(posts);
   return (
     <>
     <Particles

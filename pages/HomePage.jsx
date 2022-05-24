@@ -10,19 +10,18 @@ export default function HomePage({ data }) {
     <div>
       {/* navbar */}
 
-      <nav className="bg-transparent text-2xl lg:text-5xl font-bold rounded-xl px-5 text-white  ">
-        {/* <span className="text-slate-500 font-extrabold">L</span><span className="text-slate-600">IPSUM</span>
-        <span className="text-slate-500 font-extrabold"> I</span><span className="text-slate-600">OREM</span> */}
-        {/* <h1 className="text-slate-400 animate-pulse">vikash kshatra</h1> */}
+      <nav className="bg-transparent text-4xl lg:text-5xl rounded-xl p-5 text-white drop-shadow-2xl ">
+        <span className="text-rose-500 font-extrabold">l</span>OREM
+        <span className="text-rose-500 font-extrabold"> I</span>PSUM
       </nav>
 
       {/* MOTO */}
 
-      <div className="moto-container text-8xl font-bold my-60 drop-shadow-sm">
+      <div className="moto-container text-8xl font-bold my-5">
         <nav className="bg-transparent rounded-xl py-20 p-5 text-white drop-shadow-2xl ">
-          <span className="text-slate-500 font-extrabold ">S</span><span className="text-slate-600">ome</span>
-          <h1 className="text-slate-800 font-extrabold text-7xl">Random</h1>
-          <span className="text-slate-500 font-extrabold  ">S</span><span className="text-slate-600">tuff's</span>
+          <span className="text-rose-500 font-extrabold ">L</span>et's
+          <h1 className="text-rose-500 font-extrabold ">build</h1>
+          <span className="text-rose-500 font-extrabold  ">S</span>tuffs
         </nav>
       </div>
       {/* TOOLS */}

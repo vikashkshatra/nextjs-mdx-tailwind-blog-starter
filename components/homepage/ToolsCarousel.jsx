@@ -23,7 +23,7 @@ import SwiperCore, { Autoplay } from "swiper";
 export default () => {
   SwiperCore.use([Autoplay]);
   return (
-    <div className="container px-5 my-20">
+    <div className="container px-10 my-10">
       <Swiper
         // install Swiper modules
         spaceBetween={40}
@@ -33,10 +33,10 @@ export default () => {
         freeMode={true}
       >
         <SwiperSlide>
-          <SiJavascript size={40} color="fcba03" />
+          <SiJavascript size={40} color="yellow" />
         </SwiperSlide>
         <SwiperSlide>
-          <SiPython size={40} color="#3b67f7" />
+          <SiPython size={40} color="blue" />
         </SwiperSlide>
         <SwiperSlide>
           <SiNextdotjs size={40} color="skyblue" />
